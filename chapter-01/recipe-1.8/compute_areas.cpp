@@ -19,4 +19,4 @@ int main() {
     << side << " has an area of " << A_polygon << std::endl;
 
     return EXIT_SUCCESS;
- 
+} 
