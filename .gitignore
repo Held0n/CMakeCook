@@ -35,4 +35,4 @@
 /**/build/
 
 # VSCode 
-/.vscode/
+/**/.vscode/

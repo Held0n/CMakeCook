@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+
+project(recipe-01 LANGUAGES NONE)
+
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    message(STATUS "Configureing on/for Linux")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
+    message(STATUS "Configureing on/for Darwin")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "macOS")
+    message(STATUS "Configureing on/for Windows")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "macOS")
+    message(STATUS "Configureing on/for Windows")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "AIX")
+    message(STATUS "Configureing on/for IBM AIX")
+else()
+    message(STATUS "Configureing on/for ${CMAKE_SYSTEM_NAME}")
+endif()
